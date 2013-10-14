@@ -1,0 +1,83 @@
+#myTxt{
+	width: 60%;
+	height: 60%;
+	padding: 0px, 0px, 0px, 0px;
+	margin: 0px, 0px, 0px, 0px;
+	background-color: transparent;
+	font-family:"Verdana", Arial, sans-serif;	
+	text-align: left;
+	border: none;
+}
+
+@media screen and (orientation: portrait){
+	body{
+		background-color: #C0C0C0;
+		background-image: url(chrono_portrait.jpg);
+		background-size: 100%;
+	}
+	#myTxt{
+		/*font-size:25vw;*/
+		position: fixed;
+		top: 12%;
+		left: 15%;
+	}
+	button{
+		position: fixed;
+		top: 80%;
+		width: 30%;
+		height: 12%;
+		background-color: #C0C0C0;
+		/*font-size: 5vw;*/
+	}
+	#myStartB{
+		left: 3%;
+	}
+	#myContinueB{
+		left: 35%;
+	}
+	#myPauzeB{
+		left: 67%;
+	}
+}
+
+
+@media screen and (orientation: landscape){
+	body{
+		background-color: #B8AF88;
+		background-image: url(chrono_landscape.jpg);
+		background-size: 100%;
+	}
+	#myTxt{
+		/*font-size:25vh;*/
+		position: fixed;
+		top: 20%;
+		left: 63%;
+	}
+	button{
+		position: fixed;
+		left: 5%;
+		width: 30%;
+		height: 25%;
+		background-color: #B8AF88;
+		/*font-size: 5vh;*/
+	}
+	#myStartB{	
+		top: 5%;
+	}
+	#myContinueB{
+		top: 37%;
+	}
+	#myPauzeB{
+		top: 70%;
+	}	
+}
+@media screen and (orientation: portrait) and (max-width:320px){ #myTxt{font-size:80px;}button{font-size: 16px;}}
+@media screen and (orientation: landscape) and (max-width:480px) { #myTxt{font-size:80px;}button{font-size: 16px;}}
+@media screen and (orientation: portrait) and (min-width:320px){ #myTxt{font-size:80px;}button{font-size: 16px;}}
+@media screen and (orientation: landscape) and (min-width:480px) { #myTxt{font-size:80px;}button{font-size: 16px;}}
+@media screen and (orientation: portrait) and (min-width:360px){ #myTxt{font-size:90px;}button{font-size: 18px;}}
+@media screen and (orientation: landscape) and (min-width:640px) { #myTxt{font-size:90px;}button{font-size: 18px;}}
+@media screen and (orientation: portrait) and (min-width:520px){ #myTxt{font-size:120px;}button{font-size: 28px;}}
+@media screen and (orientation: landscape) and (min-width:840px) { #myTxt{font-size:120px;}button{font-size: 28px;}}
+@media screen and (orientation: portrait) and (min-width:768px){ #myTxt{font-size:192px;}button{font-size: 38px;}}
+@media screen and (orientation: landscape) and (min-width:1024px) { #myTxt{font-size:192px;}button{font-size: 38px;}}
